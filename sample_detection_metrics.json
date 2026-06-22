@@ -1,0 +1,157 @@
+{
+  "model": "yolov8s.pt (pre-trained on COCO)",
+  "conf_threshold": 0.35,
+  "classes_detected": [
+    0,
+    67
+  ],
+  "samples": [
+    {
+      "input_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/3db7720f4180_input.jpg",
+      "annotated_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/3db7720f4180_annotated.jpg",
+      "scenario": "Single person holding a smartphone (phone violation)",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.846,
+          "bbox_xyxy": [
+            1,
+            285,
+            667,
+            740
+          ]
+        },
+        {
+          "class_id": 67,
+          "class_name": "cell phone",
+          "confidence": 0.645,
+          "bbox_xyxy": [
+            451,
+            252,
+            590,
+            536
+          ]
+        }
+      ],
+      "num_persons": 1,
+      "num_phones": 1,
+      "violations": [
+        "Phone Detected (1)"
+      ]
+    },
+    {
+      "input_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/135fb2ee9d37_input.jpg",
+      "annotated_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/135fb2ee9d37_annotated.jpg",
+      "scenario": "Person with phone in hand, indoor scene (phone violation)",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.888,
+          "bbox_xyxy": [
+            328,
+            64,
+            1018,
+            912
+          ]
+        },
+        {
+          "class_id": 67,
+          "class_name": "cell phone",
+          "confidence": 0.45,
+          "bbox_xyxy": [
+            545,
+            412,
+            1116,
+            767
+          ]
+        }
+      ],
+      "num_persons": 1,
+      "num_phones": 1,
+      "violations": [
+        "Phone Detected (1)"
+      ]
+    },
+    {
+      "input_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/f617b1adb7cb_input.jpg",
+      "annotated_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/f617b1adb7cb_annotated.jpg",
+      "scenario": "Two students in a classroom (multiple-person violation)",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.911,
+          "bbox_xyxy": [
+            422,
+            78,
+            997,
+            1038
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.895,
+          "bbox_xyxy": [
+            648,
+            49,
+            1378,
+            1045
+          ]
+        }
+      ],
+      "num_persons": 2,
+      "num_phones": 0,
+      "violations": [
+        "Multiple Persons (2)"
+      ]
+    },
+    {
+      "input_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/984b92495d31_input.jpg",
+      "annotated_image": "/home/z/my-project/download/member2_deliverables/sample_outputs/984b92495d31_annotated.jpg",
+      "scenario": "Multiple people in frame (multiple-person violation)",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.937,
+          "bbox_xyxy": [
+            1082,
+            7,
+            1654,
+            624
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.931,
+          "bbox_xyxy": [
+            377,
+            109,
+            903,
+            626
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.885,
+          "bbox_xyxy": [
+            830,
+            164,
+            1065,
+            625
+          ]
+        }
+      ],
+      "num_persons": 3,
+      "num_phones": 0,
+      "violations": [
+        "Multiple Persons (3)"
+      ]
+    }
+  ]
+}

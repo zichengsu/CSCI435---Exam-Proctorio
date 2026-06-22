@@ -1,0 +1,6 @@
+train: C:/Users/debja/Downloads/member2_deliverables/roboflow_dataset/train/images
+val: C:/Users/debja/Downloads/member2_deliverables/roboflow_dataset/valid/images
+test: C:/Users/debja/Downloads/member2_deliverables/roboflow_dataset/test/images
+
+nc: 1
+names: ['mobilephone']
