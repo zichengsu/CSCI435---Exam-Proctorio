@@ -1,0 +1,18 @@
+# Core
+numpy
+opencv-python
+pandas
+
+# Frontend (Member 5)
+streamlit
+
+# Member 2 - object detection
+ultralytics
+
+# Member 3 - gaze
+mediapipe
+
+# Member 1 - face recognition (optional high-accuracy path).
+# If face_recognition / dlib will not install on your machine, leave it out;
+# face_recognizer.py automatically falls back to OpenCV face detection.
+face_recognition

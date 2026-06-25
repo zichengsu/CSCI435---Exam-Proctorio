@@ -1,14 +1,14 @@
 """
-AI Exam Proctoring System -- Member 2 Module
+AI Exam Proctoring System -- Object Detection Module
 ============================================
 
 Phone & Person detection using YOLOv8.
 
-This module is the Member 2 contribution to the CSCI435 group project.
+This module provides phone & person detection for the CSCI435 project.
 It exposes a single, reusable detection pipeline that supports three input
 modalities (webcam, image file, video file) and produces both a visual
 overlay (bounding boxes + status banner) and a structured per-frame record
-that the Streamlit frontend (Member 5) can consume.
+that the Streamlit frontend can consume.
 
 Responsibilities:
     * Phone (COCO class 67) detection
@@ -18,7 +18,7 @@ Responsibilities:
     * Violation logging to a timestamped text file
     * FPS + per-frame latency measurement for the report
 
-Author: Member 2 -- CSCI435 Group Project, Spring 2026
+CSCI435 Group Project
 """
 
 from __future__ import annotations
@@ -351,7 +351,7 @@ def _draw_overlay(frame, result: FrameResult, status_text: str) -> None:
 def _build_arg_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="object_detection_proctor",
-        description="AI Exam Proctoring -- phone & person detection (Member 2).",
+        description="AI Exam Proctoring -- phone & person detection.",
     )
     src = p.add_mutually_exclusive_group()
     src.add_argument("--webcam", type=int, default=0,

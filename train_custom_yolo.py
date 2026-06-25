@@ -1,5 +1,5 @@
 """
-train_custom_yolo.py  —  Member 2: Fine-tune YOLOv8s on custom phone dataset
+train_custom_yolo.py  —  Fine-tune YOLOv8s on custom phone dataset
 CSCI435 AI Exam Proctoring System — University of Wollongong in Dubai
 
 Usage (local dataset):
